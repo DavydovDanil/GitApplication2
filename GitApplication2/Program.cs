@@ -8,9 +8,9 @@
         {
 
         }
-        public void MatrixB(int n, int m)
+        public void MatrixA(int n, int m)
         {
-            Console.ForegroundColor = ConsoleColor.Magenta;
+            Console.ForegroundColor = ConsoleColor.Green;
             int[,] mass = new int[n, m];
             for (int i = 0; i < n; ++i)
             {
